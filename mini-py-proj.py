@@ -97,6 +97,14 @@ class TodoList:
                 	return
         	print(f"Задача с ID {task_id} не найдена!")
 
+		def clear_completed(self):
+			before_count = len([t for t in self.tasks if t["completed"]])
+        	self.tasks = [t for t in self.tasks if not t["completed"]]
+        	for i, task in enumerate(self.tasks, 1):
+            	task["id"] = i
+			self.save_tasks()
+        	print(f"🧹 Удалено {before_count} выполненных задач!")
+
 def main():
     todo = TodoList()
     
