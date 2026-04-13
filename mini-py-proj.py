@@ -28,7 +28,7 @@ class TodoList:
             	"title": title,
             	"priority": priority,
             	"completed": False,
-            	"created_at": datetime.now().strftime("%Y-%m-%d %H:%M:%")
+            	"created_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         	}
         	self.tasks.append(task)
         	self.save_tasks()
