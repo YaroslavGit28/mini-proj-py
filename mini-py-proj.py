@@ -102,7 +102,7 @@ def main():
         
         choice = input("\nВыберите действие: ").strip()
         
-        if choice == "":
+        if choice == "1":
             todo.show_tasks()
         
         elif choice == "2":
