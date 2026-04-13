@@ -15,7 +15,7 @@ class TodoList:
 						self.tasks = json.load(file)
 				except (json.JSONDecodeErroe, FileNotFoundError):
 					self.tasks = []
-			else
+			else:
 				self.tasks = []
 
 		def save_tasks(self):
