@@ -1,4 +1,3 @@
-<img width="1905" height="893" alt="Docker_img" src="https://github.com/user-attachments/assets/ada0f0db-1c71-4416-a4eb-52753a1cb47d" />
 # To-Do List Application
 
 Консольное приложение для управления списком задач с сохранением данных в JSON файл.
