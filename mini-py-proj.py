@@ -85,6 +85,17 @@ class TodoList:
                 	print(f"[{task['id']}] ✓ {task['title']}")
         
         	print("\n" + "="*60)
+    	def edit_task(self, task_id, new_title=None, new_priority=None):
+        	for task in self.tasks:
+            	if task["id"] == task_id:
+                	if new_title:
+                    	task["title"] = new_title
+                	if new_priority and new_priority in ["высокий", "средний", "низкий"]:
+                    	task["priority"] = new_priority
+                	self.save_tasks()
+                	print(f"✎ Задача обновлена!")
+                	return
+        	print(f"Задача с ID {task_id} не найдена!")
 
 def main():
     todo = TodoList()
