@@ -22,6 +22,7 @@
 
 - Docker Compose (обычно идёт вместе с Docker)
 <img width="1430" height="827" alt="Docker_comp" src="https://github.com/user-attachments/assets/81e6a8d6-7b9d-4091-aef5-7345f3ffdc49" />
+
 ### Сборка и запуск
 
 1. Клонируйте репозиторий:
