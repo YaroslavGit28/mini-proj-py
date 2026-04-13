@@ -29,17 +29,21 @@
 ```bash
 git clone <your-repo-url>
 cd todo-list-project
-
+```
 ### Знакомство с Линтерами, форматированием и pre-commit
 **Black**
 <img width="968" height="483" alt="Black" src="https://github.com/user-attachments/assets/0ca66fd6-e923-403f-98ef-4c5c4b815a5a" />
 
 **flake8 с ошибками**
+
 <img width="975" height="511" alt="flake8" src="https://github.com/user-attachments/assets/6d3d9601-6068-401c-bcfa-122b06d3817f" />
 
 **flake8 исправленно**
+
 <img width="975" height="510" alt="flake8_no_problem" src="https://github.com/user-attachments/assets/dc6b009c-ced8-4220-914f-94a2f07ad7e9" />
 
 **Pre-commits**
+
 <img width="1899" height="488" alt="pre" src="https://github.com/user-attachments/assets/b9c1c6e6-d634-4f10-a741-c50abfcb5075" />
+
 <img width="1048" height="680" alt="pre1" src="https://github.com/user-attachments/assets/094a3c5e-ddb9-479a-862a-0f13421ed776" />
